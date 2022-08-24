@@ -439,6 +439,26 @@ mappings = {
         }
     },
 
+    "reed_open": {
+        "device_type": "binary_sensor",
+        "object_suffix": "reed_open",
+        "config": {
+            "device_class": "door",
+            "payload_on": "1",
+            "payload_off": "0",
+        }
+    },
+
+    "contact_open": {
+        "device_type": "binary_sensor",
+        "object_suffix": "contact_open",
+        "config": {
+            "device_class": "door",
+            "payload_on": "1",
+            "payload_off": "0",
+        }
+    },
+
     "alarm": {
         "device_type": "binary_sensor",
         "object_suffix": "alarm",
